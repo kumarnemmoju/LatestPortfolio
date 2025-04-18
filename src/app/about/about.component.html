@@ -1,0 +1,99 @@
+<section class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <h1 class="section-title">About <span>Me</span></h1>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-wrapper">
+            <img src="assets/images/profile.jpeg" alt="About Me" class="profile-image">
+            <div class="image-border"></div>
+            <div class="image-overlay"></div>
+          </div>
+        </div>
+        
+        <div class="about-text">
+          <h2 class="hero-subtitle">Who am I?</h2>
+          <p class="summary-text">{{ summary }}</p>
+          
+          <div class="about-details">
+            <div class="detail-item">
+              <div class="detail-icon">
+                <fa-icon [icon]="faUser"></fa-icon>
+              </div>
+              <div class="detail-content">
+                <h3>Name</h3>
+                <p>Uday Kumar Nemmoju</p>
+              </div>
+            </div>
+            
+            <div class="detail-item">
+              <div class="detail-icon">
+                <fa-icon [icon]="faPhone"></fa-icon>
+              </div>
+              <div class="detail-content">
+                <h3>Phone</h3>
+                <p>{{ contact.phone || 'Not available' }}</p>
+              </div>
+            </div>
+            
+            <div class="detail-item">
+              <div class="detail-icon">
+                <fa-icon [icon]="faEnvelope"></fa-icon>
+              </div>
+              <div class="detail-content">
+                <h3>Email</h3>
+                <p>{{ contact.email || 'Not available' }}</p>
+              </div>
+            </div>
+            
+            <div class="detail-item">
+              <div class="detail-icon">
+                <fa-icon [icon]="faMapMarkerAlt"></fa-icon>
+              </div>
+              <div class="detail-content">
+                <h3>Location</h3>
+                <p>{{ contact.address || 'Not available' }}</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-actions">
+            <a href="#" class="btn btn-download"  (click)="downloadPDF()">
+              <span>Download CV</span>
+              <div class="btn-hover-effect"></div>
+            </a>
+            <a routerLink="/contact" class="btn btn-contact">
+              <span>Contact Me</span>
+              <div class="btn-hover-effect"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="education-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">My <span>Education</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item" *ngFor="let edu of education; let i = index" [style.animation-delay]="i * 0.1 + 's'">
+          <div class="timeline-date">{{ edu.year || 'Year not specified' }}</div>
+          <div class="timeline-content">
+            <div class="content-header">
+              <h3>{{ edu.degree || 'Degree not specified' }}</h3>
+              <div class="timeline-dot"></div>
+            </div>
+            <p class="institution">{{ edu.institution || 'Institution not specified' }}</p>
+            <div class="timeline-highlight"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

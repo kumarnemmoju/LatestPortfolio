@@ -1,0 +1,57 @@
+<section class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="greeting">Hello, I'm</div>
+          <h1 class="hero-title">Uday Kumar <span class="highlight" >Nemmoju</span></h1><div class="section-divider"></div><br><br>
+          <div class="title-tag">
+            <span>Angular Developer</span>
+          </div>
+          <p class="hero-description">{{ summary }}</p>
+          <div class="hero-actions">
+            <a routerLink="/contact" class="btn btn-primary">
+              <fa-icon [icon]="icons.contact"></fa-icon>
+              Contact Me
+            </a>
+            <a routerLink="/about" class="btn btn-secondary">
+              <fa-icon [icon]="icons.about"></fa-icon>
+              About Me
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img src="assets/images/profile.jpeg" alt="Profile Picture" class="profile-image">
+            <div class="image-border"></div>
+            <div class="image-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="skills-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Technical <span>Expertise</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="skills-grid">
+        <div class="skill-card" *ngFor="let category of skillCategories">
+          <div class="card-header">
+            <div class="card-icon">
+              <fa-icon [icon]="icons[category.icon]"></fa-icon>
+            </div>
+            <h3>{{ category.title }}</h3>
+          </div>
+          <ul class="skill-list">
+            <li *ngFor="let skill of category.skills">
+              <div class="skill-bullet"></div>
+              <span>{{ skill }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>

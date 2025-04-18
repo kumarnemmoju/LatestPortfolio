@@ -1,0 +1,50 @@
+<section class="experience-section">
+    <div class="container">
+      <div class="section-intro">
+        <h1 class="section-title">Professional <span>Experience</span></h1>
+        <div class="section-divider"></div>
+      </div>
+  
+      <div class="experience-timeline">
+        <div class="timeline-progress-bar"></div>
+        
+        <div class="experience-items">
+          <div class="experience-item" *ngFor="let exp of experience; let i = index">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            
+            <div class="experience-card">
+              <div class="card-header">
+                <div class="company-info">
+                  <h3 class="company-name">{{exp.company}}</h3>
+                  <h4 class="position-title">{{exp.position}}</h4>
+                  <div class="employment-period">{{exp.period}}</div>
+                </div>
+              </div>
+              
+              <div class="card-content">
+                <h5 class="responsibilities-title">Key Contributions:</h5>
+                <ul class="responsibilities-list">
+                  <li *ngFor="let responsibility of exp.responsibilities">
+                    <div class="responsibility-bullet"></div>
+                    <p>{{responsibility}}</p>
+                  </li>
+                </ul>
+                
+                <div class="tech-stack-section">
+                  <h5 class="tech-stack-title">Tech Stack:</h5>
+                  <div class="tech-stack-tags">
+                    <span class="tech-tag" *ngFor="let tech of exp.techStack">
+                      {{tech}}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,212 @@
+{
+  "summary": "Detail-oriented and highly skilled Angular Developer with 5+ years of hands-on experience designing, developing, and deploying dynamic and responsive web applications. Proficient in Angular (v8+), TypeScript, JavaScript, REST APIs, and component-based UI development. Adept at working with cross-functional teams, improving application performance, and ensuring seamless user experience. Strong understanding of modern front-end architecture and development workflows.",
+
+  "skills": {
+    "frontend": [
+      "Angular (v2+ to v15)",
+      "Angular CLI",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+      "SCSS",
+      "RxJS",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Angular Material"
+    ],
+    "stateManagement": [
+      "NgRx",
+      "BehaviorSubject",
+      "Observables",
+      "Services-based state handling"
+    ],
+    "uiux": [
+      "Responsive Web Design",
+      "Flexbox",
+      "Grid Layout",
+      "Figma",
+      "Adobe XD",
+      "Material Design Guidelines"
+    ],
+    "api": ["RESTful APIs", "JSON", "GraphQL", "WebSocket", "HTTPClientModule"],
+    "testing": ["Jasmine", "Karma", "Protractor", "Cypress", "Chrome DevTools"],
+    "tools": [
+      "Visual Studio Code",
+      "WebStorm",
+      "Postman",
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+    ],
+    "build": [
+      "NPM",
+      "Webpack",
+      "Jenkins",
+      "Docker",
+      "Azure DevOps",
+      "GitHub Actions"
+    ],
+    "methodologies": ["Agile/Scrum", "Jira", "Confluence", "Trello"],
+    "versionControl": [
+      "Git",
+      "GitHub",
+      "Bitbucket",
+      "GitLab",
+      "Code Reviews",
+      "Branching Strategies"
+    ],
+    "cloud": ["AWS (S3, CloudFront)", "Azure (App Services, DevOps Pipelines)"]
+  },
+
+  "experience": [
+    {
+      "company": "Tech Data, USA",
+      "position": "Angular Developer",
+      "period": "November 2024 – Present",
+      "responsibilities": [
+        "Experience in all stages of the SDLC Software Development Life Cycle, involving studying the user requirements, analyzing, designing, implementing, deploying, documenting, and testing of web-based applications.",
+        "Developed responsive web applications using React.js and Bootstrap, resulting in a 20% improvement in user engagement.",
+        "Developed a single-page responsive Web using HTML5, AngularJS, Bootstrap, CSS3, JavaScript, jQuery, React.js.",
+        "Integrated RESTful APIs to fetch and display data on web interfaces, resulting in a 25% reduction in data retrieval time and a 20% improvement in overall application performance.",
+        "Collaborated with back-end developers to ensure seamless integration of front-end components.",
+        "Experience in using MySQL and MS SQL databases to store and retrieve application data, achieving an improvement in database query performance and a 10% decrease in data recovery errors."
+      ]
+    },
+    {
+      "company": "Zyoin Web Pvt. Ltd., Chennai, India",
+      "position": "Angular Developer",
+      "period": "February 2023 – August 2023",
+      "responsibilities": [
+        "Developed modular and reusable UI components using Angular 14 for scalable applications.",
+        "Integrated real-time data synchronization with backend APIs to enhance user experience.",
+        "Implemented advanced filtering, search functionalities, and dynamic data rendering.",
+        "Designed and enforced role-based access control (RBAC) mechanisms for secure user access.",
+        "Created responsive and accessible UI layouts using Angular Material and Tailwind CSS.",
+        "Conducted user testing sessions and incorporated feedback for UI/UX enhancements.",
+        "Optimized application performance to improve scalability and responsiveness.",
+        "Collaborated closely with backend developers for seamless API integration.",
+        "Debugged and resolved UI/functional issues, ensuring smooth application performance.",
+        "Monitored production deployments and proactively addressed post-release issues.",
+        "Implemented best practices for front-end architecture, improving maintainability.",
+        "Enhanced state management and component communication for efficient data flow.",
+        "Maintained code quality standards and performed peer code reviews."
+      ]
+    },
+    {
+      "company": "Cognizant Technology Solutions, Hyderabad, India",
+      "position": "Angular Developer",
+      "period": "January 2021 – September 2022",
+      "responsibilities": [
+        "Planned and executed the migration strategy for AngularJS to Angular 12.",
+        "Refactored legacy code to comply with Angular best practices.",
+        "Implemented lazy loading and modular architecture for scalability.",
+        "Resolved compatibility issues between Angular versions and third-party libraries.",
+        "Integrated APIs and tested functionality across all modules.",
+        "Collaborated with QA teams to perform regression and performance testing.",
+        "Provided technical guidance and mentoring to junior developers.",
+        "Designed responsive layouts using Bootstrap for mobile and web.",
+        "Delivered training sessions on Angular 12 for internal teams.",
+        "Developed new UI features to enhance the shopping experience.",
+        "Collaborated with UX designers to implement responsive layouts.",
+        "Built reusable Angular components for faster development.",
+        "Integrated with a Microservices-based backend for efficient data retrieval.",
+        "Designed and implemented responsive design using Bootstrap and Angular Material."
+      ]
+    },
+    {
+      "company": "Sage Softech, India",
+      "position": "Angular Developer",
+      "period": "August 2018 – December 2020",
+      "responsibilities": [
+        "Incorporated Agile methodology and Kanban for development.",
+        "Enhanced user experience and acquired data using Angular and REST APIs, resulting in a 20% increase in user engagement and data acquisition.",
+        "Developed front-end with Node.js, Express.js, and MySQL, leading to a 30% improvement in system performance and reliability.",
+        "Designed and implemented responsive layouts using Tailwind CSS and Angular Material.",
+        "Managed codebase using GitHub, including branching, merging, and version control, leading to a 20% reduction in code conflicts.",
+        "Integrated Angular front-end applications with MongoDB-backed RESTful APIs, enabling efficient data retrieval and real-time updates for dynamic web interfaces.",
+        "Used jQuery, AJAX, and DOM manipulation to create interactive web applications like message posting and auto-complete form validations.",
+        "Implemented continuous integration with Jenkins and deployment on AWS.",
+        "Coordinated the organization of testing and quality improvement processes using Jira and Confluence, resulting in a 25% reduction in bug occurrence and enhancement of overall product quality."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "MS in Computer Science & Information Technology",
+      "institution": "Sacred Heart University",
+      "year": "December 2024"
+    },
+    {
+      "degree": "Bachelor of Technology in Electronics and Communications Engineering",
+      "institution": "Lovely Professional University",
+      "year": "July 2018"
+    }
+  ],
+
+  "contact": {
+    "phone": "+1 (203) 507-6017",
+    "email": "uday.k@jobstechmails.com",
+    "address": "400 Blake Street, New Haven, Connecticut, 06515",
+    "social": {
+      "linkedin": "https://linkedin.com/in/yourprofile",
+      "github": "https://github.com/yourusername",
+      "twitter": "https://twitter.com/yourhandle"
+    }
+  },
+
+  "projects": [
+    {
+      "title": "Customer Relationship & Product Insights Dashboard",
+      "description": "At Tech Data, I worked on developing a robust internal Customer Relationship and Product Insights Dashboard, designed for account managers and sales teams to track customer interactions, manage product data, and analyze sales trends in real-time. The application aimed to streamline the management of customer and product portfolios while integrating data-driven decision-making tools to boost productivity.The project was developed entirely in Angular 15 using Angular CLI for project scaffolding and efficient build management. The architecture was modular and highly component-driven, following best practices like lazy loading and route guards for optimizing application performance and security. This dashboard application was fully responsive, ensuring accessibility across desktops, tablets, and mobile devices.",
+      "technologies": [
+        "Angular 15",
+        "Angular CLI",
+        "Bootstrap",
+        "Angular Material"
+      ],
+      "features": [
+        "Real-time analytics",
+        "Modular architecture",
+        "Lazy loading",
+        "Responsive design"
+      ],
+      "image": "https://mma.prnewswire.com/media/562613/Tech_Data_CMYK.jpg?p=facebook"
+    },
+    {
+      "title": "Smart Device Management Portal",
+      "description": "During my tenure at Zyoin Web Pvt. Ltd., I worked as an Angular Developer for our client TCL, a global leader in consumer electronics. The project focused on building a Smart Device Management Portal that allowed internal teams and selected external users to remotely monitor, configure, and manage TCL’s range of smart TVs, ACs, washing machines, and IoT-enabled appliances.The portal was built using Angular 14, leveraging a modular component-based architecture to ensure scalability and maintainability. The primary goal was to provide a highly responsive, real-time dashboard where users could monitor device statuses, push firmware updates, manage configurations, and perform diagnostics.",
+      "technologies": ["Angular 14", "Bootstrap", "Angular Material"],
+      "features": [
+        "Device monitoring",
+        "Firmware updates",
+        "Configuration management"
+      ],
+      "image": "https://zyoin.com/wp-content/uploads/2024/09/Zyoin-Group-Header-Logo.png"
+    },
+    {
+      "title": "Digital Banking Customer Experience Portal",
+      "description": "As an Angular Developer at Cognizant Technology Solutions, I contributed to the development and migration of a large-scale Digital Banking Customer Experience Portal for one of the leading banking clients. This portal served as the central access point for customers to manage their accounts, perform secure transactions, view statements, manage cards, schedule bill payments, and track spending analytics.The core focus of this project was to modernize the application by migrating from AngularJS to Angular 12, refactoring legacy code, improving performance, enhancing security, and optimizing the UI for both mobile and desktop users.",
+      "technologies": ["Angular 12", "Bootstrap", "Angular Material"],
+      "features": [
+        "Account management",
+        "Secure transactions",
+        "Spending analytics"
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHGC3-_uBpXQaBJZMS0YO2CZVwbg8gBD3OQA&s"
+    },
+    {
+      "title": "Smart Tax Planner & Filing Dashboard",
+      "description": "At Sage Softech, I worked on developing a Smart Tax Planner and Filing Dashboard, an intelligent Angular-based web application designed to assist individuals and small businesses in managing their annual income tax planning, investment proofs, deduction tracking, and e-filing.This project stood out in the finance sector due to its smart rule engine that provided tax-saving suggestions based on the latest government regulations, user salary/income patterns, and existing deductions. The tool was integrated with government portals for actual tax filing and verification via APIs, ensuring legal compliance while enhancing usability.",
+      "technologies": ["Angular", "Bootstrap", "Angular Material"],
+      "features": [
+        "Tax-saving suggestions",
+        "Deduction tracking",
+        "E-filing integration"
+      ],
+      "image": "https://mma.prnewswire.com/media/562613/Tech_Data_CMYK.jpg?p=facebook"
+    }
+  ]
+}

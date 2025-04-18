@@ -1,0 +1,30 @@
+<header class="header" [class.scrolled]="isScrolled">
+    <div class="container">
+      <div class="header-content">
+        <a routerLink="/" class="logo">
+          <span class="logo-text">UDAY KUMAR NEMMOJU</span>
+        </a>
+        
+        <nav class="desktop-nav" *ngIf="!isMobileView">
+          <ul>
+            <li *ngFor="let item of navItems">
+              <a 
+                [routerLink]="item.path" 
+                routerLinkActive="active" 
+                [routerLinkActiveOptions]="{exact: item.exact}">
+                {{ item.label }}
+              </a>
+            </li>
+          </ul>
+        </nav>
+        
+        <button class="mobile-menu-toggle" *ngIf="isMobileView" (click)="toggleMobileMenu()" aria-label="Toggle menu">
+          <fa-icon 
+            [icon]="isMobileMenuOpen ? ['fas', 'times'] : ['fas', 'bars']" 
+            size="lg"
+            [class.rotate-icon]="isMobileMenuOpen">
+          </fa-icon>
+        </button>
+      </div>
+    </div>
+  </header>
